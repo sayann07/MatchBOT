@@ -1,0 +1,24 @@
+//LINK: https://discord.com/oauth2/authorize?client_id=1256246891675521125&permissions=8&integration_type=0&scope=bot
+//TOKEN: MTI1NjI0Njg5MTY3NTUyMTEyNQ.GNOjri.yNLvhNn0n3M9evKnBmPzwAMZ96hfjseFWldnPM
+//API KEY: 4ebcb15044154112b8397831c3cea3de
+// ssh -i MatchBOTKey.pem ubuntu@ec2-3-92-27-242.compute-1.amazonaws.com
+
+
+pm2------------------->
+
+to start:
+
+pm2 start bot.js --name "discord-bot"
+pm2 save
+pm2 startup
+
+to kill:
+
+pm2 kill
+
+football-data-org---------->
+
+API creation and deployment
+
+EC2 Instance in AWS------------>
+

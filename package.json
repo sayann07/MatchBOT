@@ -1,0 +1,23 @@
+{
+  "name": "matchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "country-data-codes": "^4.1.9",
+    "country-flag-icons": "^1.5.12",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "emoji-flags": "^1.3.0",
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45"
+  }
+}
